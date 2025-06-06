@@ -1,0 +1,26 @@
+# NAME: Code.org.list
+# AUTHOR: mzwkkk
+# code.org网站相关链接，最初是为了方便微机教室使用，来自个人收集，部分来自code.org反馈渠道。
+# 部分域名可能和中国大陆域名列表存在重叠
+# 规则内容较少，不会影响性能，请放心使用
+
+# 域名示例
+#DOMAIN-SUFFIX,us.cdn.blizzard.com
+#DOMAIN-SUFFIX,eu.cdn.blizzard.com
+# ip示例
+#IP-CIDR,137.221.64.0/24,no-resolve
+#IP-CIDR,8.251.135.126/32,no-resolve
+#IP-CIDR,8.251.246.126/32,no-resolve
+
+# 20241031更新
+#  必需
+DOMAIN-SUFFIX,code.org
+#  确保 CAPTCHA 系统能够将您的使用与自动欺诈（“机器人”）活动区分开
+
+#  使用互联网模拟器
+DOMAIN-SUFFIX,api.pusherapp.com
+DOMAIN-SUFFIX,ws.pusherapp.com
+
+# 使用网络实验室
+DOMAIN-SUFFIX,codeprojects.org
+DOMAIN-SUFFIX,computinginthecore.org
