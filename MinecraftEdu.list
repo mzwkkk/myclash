@@ -1,0 +1,56 @@
+# NAME: MinecraftEdu.list
+# AUTHOR: mzwkkk
+# Minecraft教育版相关链接，最初是为了方便微机教室clash分组使用，也可以参考进行教室网站白名单的设置来控制学生访问权限，来自官方和个人反馈收集。
+# 部分域名可能和中国大陆域名列表存在重叠
+# 规则内容较少，不会影响性能，请放心使用
+
+# 域名示例
+#DOMAIN-SUFFIX,us.cdn.blizzard.com
+#DOMAIN-SUFFIX,eu.cdn.blizzard.com
+# ip示例
+#IP-CIDR,137.221.64.0/24,no-resolve
+#IP-CIDR,8.251.135.126/32,no-resolve
+#IP-CIDR,8.251.246.126/32,no-resolve
+
+# 20241031更新
+# 我的世界教育版需要的URL访问
+#登录/多人游戏/编码
+DOMAIN-SUFFIX,minecrafteduservices.com
+
+#登录
+DOMAIN-SUFFIX,login.microsoftonline.com
+DOMAIN-SUFFIX,aadcdn.msauth.net
+
+#云保存（新）
+DOMAIN-SUFFIX,graph.microsoft.com
+DOMAIN-SUFFIX,sharepoint.com
+
+#多人游戏/库
+DOMAIN-SUFFIX,minecraft-services.net/	
+
+#库/演示课
+DOMAIN-SUFFIX,xboxlive.com
+DOMAIN-SUFFIX,playfabapi.com
+
+#图书馆
+DOMAIN-SUFFIX,education.minecraft.net
+
+#错误报告和日志记录
+DOMAIN-SUFFIX,self.events.data.microsoft.com
+
+#沉浸式阅读器
+DOMAIN-SUFFIX,contentstorage.onenote.office.net
+DOMAIN-SUFFIX,cognitiveservices.azure.com
+DOMAIN-SUFFIX,learningtools.onenote.com
+
+#更新和支持
+DOMAIN-SUFFIX,meedownloads.blob.core.windows.net
+DOMAIN-SUFFIX,minecraft.makecode.com
+
+#MakeCode
+DOMAIN-SUFFIX,makecode.com
+DOMAIN-SUFFIX,trg-minecraft.userpxt.io
+DOMAIN-SUFFIX,pxt.azureedge.net
+DOMAIN-SUFFIX,api.github.com
+DOMAIN-SUFFIX,tynker.com
+
