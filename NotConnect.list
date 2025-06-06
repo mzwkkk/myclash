@@ -1,0 +1,47 @@
+DOMAIN-SUFFIX,# NAME: NotConnect.list
+# AUTHOR: mzwkkk
+# win10操作系统后台自动更新以及自动联网等相关链接，最初是为了方便微机教室使用，来自个人收集。
+# 部分域名可能会影响到系统更新
+# 规则内容较少，不会影响性能，请放心使用
+
+# 域名示例
+#DOMAIN-SUFFIX,us.cdn.blizzard.com
+#DOMAIN-SUFFIX,eu.cdn.blizzard.com
+# ip示例
+#IP-CIDR,137.221.64.0/24,no-resolve
+#IP-CIDR,8.251.135.126/32,no-resolve
+#IP-CIDR,8.251.246.126/32,no-resolve
+
+# 20241120更新
+#Microsoft Edge 用于检查新的更新内容的服务。
+DOMAIN-SUFFIX,msedge.api.cdp.microsoft.com
+
+#实验和配置服务
+DOMAIN-SUFFIX,config.edge.skype.com
+
+#Microsoft Edge 的下载
+DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+
+#Microsoft Edge 扩展的下载
+DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+
+#下载传递优化
+DOMAIN-SUFFIX,do.dsp.mp.microsoft.com
+
+#Azure 信息保护终结点：
+DOMAIN-SUFFIX,api.aadrm.com（适用于大多数租户）
+DOMAIN-SUFFIX,api.aadrm.de（适用于德国的租户）
+DOMAIN-SUFFIX,api.aadrm.cn（适用于中国的租户）
+
+#Microsoft Defender SmartScreen 服务Microsoft Defender SmartScreen 可帮助保护用户免受恶意网站和下载的侵害。
+DOMAIN-SUFFIX,smartscreen.microsoft.com/
+DOMAIN-SUFFIX,smartscreen-prod.microsoft.com
+DOMAIN-SUFFIX,urs.microsoft.com/
+
+
+#Microsoft Rewards支持 Microsoft Rewards 的服务。
+DOMAIN-SUFFIX,prod.rewardsplatform.microsoft.com/
+
+#反馈和诊断，支持桌面和移动用户的反馈和诊断的服务。
+DOMAIN-SUFFIX,api.msa.diagnostics.office.com
+DOMAIN-SUFFIX,api.diagnostics.office.com
